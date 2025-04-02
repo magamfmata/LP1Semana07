@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace LP1Semana07
+namespace ColorSpheres
 {
     public class Color
     {

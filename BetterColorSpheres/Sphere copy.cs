@@ -32,7 +32,9 @@ namespace ColorSpheres
                 _timesThrown++;
             }
         }
-        
+
+        public int GetTimesThrown=> _timesThrown;          
+
 
     }
 }

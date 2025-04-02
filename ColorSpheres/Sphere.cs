@@ -8,24 +8,31 @@ namespace ColorSpheres
     public class Sphere
     {
         private Color color;
-        private double radius;
+        private float radius;
         private int timesThrown;
 
-        public Sphere(Color color, double radius)
+        public Sphere(Color color, float radius)
         {
             _color = color;
             _radius = radius;
             _timesThrown = 0;
         }
-
-        public Color GetColor() => _color;
-        public double GetRadius() => _radius;
         public int GetTimesThrown() => _timesThrown;
 
-        public void Throw()
+        private void Pop()
         {
-            _timesThrown++;
+            radius = 0;
         }
+
+        private void Throw()
+        {
+            if (_radius > 0)
+
+            {
+                _timesThrown++;
+            }
+        }
+        
 
     }
 }

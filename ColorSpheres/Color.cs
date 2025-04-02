@@ -7,13 +7,13 @@ namespace ColorSpheres
 {
     public class Color
     {
-        private byte red;
+        private readonly byte _red;
 
-        private byte green;
+        private readonly byte _green;
 
-        private byte blue;
+        private readonly byte _blue;
 
-        private byte alpha;
+        private readonly byte _alpha;
 
         public Color(byte red, byte green, byte blue, byte alpha)
         {
@@ -49,6 +49,7 @@ namespace ColorSpheres
         public byte GetGrey() => (byte)((_red + _green + _blue) / 3);
         {
             return GetGrey();
+        }
 
     }
 }

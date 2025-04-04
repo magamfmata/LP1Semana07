@@ -73,8 +73,10 @@ namespace MyRoguelike
                 xp = 0;
 
                 }
+            }
 
             }
         }
+}
     }
 }

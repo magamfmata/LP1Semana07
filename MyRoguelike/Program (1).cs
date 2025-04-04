@@ -45,55 +45,6 @@ namespace MyRoguelike
             // Health: 140/140
 
 
-        private class Hero
-{
-        private int _xp;
-        private float _health;
-
-        public int XP
-        {
-            get => _xp;
-            set
-
-            {
-                if (value > _xp)
-            {
-                _xp = value;
-            }
-            }
-       }
-
-        readonly string _Name => name;
-
-        readonly int _Level => _Level + 1 + (_xp / 1000);
-
-        readonly float _MaxHealth => 100 + (_Level - 1) * 20;
-
-        public void TakeDamage(float damage)
-
-        {
-            if (damage < 0)
-            {
-                Console.WriteLine("Damage cannot be negative.");
-                return;
-            }
-
-
-            _health -= damage;
-
-            if (_health < 0)
-
-            {
-                _health = 0;
-            }
-
-            _health+= int(damage / 20);
-
-        
-        }
-    }
-
-
 
         }
     }

@@ -67,12 +67,14 @@ namespace MyRoguelike
                 public Hero(string name)
 
                 {
-            Name = name;
-            health = MaxHealth;
-            xp = 0;
-        }
 
-    }
-}
+                Name = name;
+                health = MaxHealth;
+                xp = 0;
+
+                }
+
+            }
+        }
     }
 }

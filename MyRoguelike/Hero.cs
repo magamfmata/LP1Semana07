@@ -49,7 +49,27 @@ namespace MyRoguelike
                 {
                     health = MaxHealth;
                 }
-            }
+                public float MaxHealth
+
+                {
+
+                get => 100 + (Level - 1) * 20;
+
+                }
+                public void TakeDamage(float damage)
+
+               {
+
+               Health -= damage;
+               XP += (int)(damage / 20);
+               }
+
+                public Hero(string name)
+
+                {
+            Name = name;
+            health = MaxHealth;
+            xp = 0;
         }
 
     }

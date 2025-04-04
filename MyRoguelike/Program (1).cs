@@ -43,6 +43,17 @@ namespace MyRoguelike
             // Level: 3
             // Health: 0
             // Health: 140/140
+
+
+            private class Hero
+
+            {
+                private int xp;
+                private float health;
+                
+        
+
+            }
         }
     }
 }

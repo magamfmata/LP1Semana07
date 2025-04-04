@@ -5,10 +5,7 @@ using System.Threading.Tasks;
 
 namespace MyRoguelike
 {
-    public class Hero
-    {
 
-{
     public class Hero
     {
         private int xp;
@@ -49,6 +46,8 @@ namespace MyRoguelike
                 {
                     health = MaxHealth;
                 }
+            }
+        }
                 public float MaxHealth
 
                 {
@@ -76,7 +75,5 @@ namespace MyRoguelike
             }
 
             }
-        }
-}
-    }
-}
+        
+    
